@@ -1,0 +1,11 @@
+.border {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    display: flex;
+}
+
+.para1 {
+    margin-left: 30px;
+    margin-right: 800px;
+}

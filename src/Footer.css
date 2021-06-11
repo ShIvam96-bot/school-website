@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    flex: 1;
+    background-color: #800000;
+}
+
+.footer__logo {
+    height: 100px;
+    width: 100px;
+}
+
+.mail {
+    color: white;
+}
+
+.number {
+    color: white;
+
+}
+
+.address {
+    color: white;
+}
+
+.logoInfo {
+    padding: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    margin-left: 200px;
+}
+
+.name {
+    color: yellow;
+    font-size: 25px;
+}
+
+.social {
+    color: yellow;
+    font-size: 25px;
+}
+
+.social__con {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}

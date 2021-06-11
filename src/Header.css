@@ -1,0 +1,30 @@
+.header__logo {
+    height: 120px;
+    width: 150px;
+    padding-right: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color:#191970;
+    color: white;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header__heading {
+    font-size: 60px;
+    font-style:inherit;
+    font-weight: 400;
+}
+
+.header__para {
+    font-size: 20px;
+}

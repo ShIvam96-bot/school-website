@@ -1,0 +1,31 @@
+.topper {
+    width: 260px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.slides {
+    width: 260px;
+    height: 350px;
+}
+
+.info__container {
+    display: flex;
+    background-color:#4682B4;
+}
+
+.otherInfo {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+.calender {
+    margin-top: 10px;
+}
+
+.card {
+    height: 350px;
+    width: 280px;
+}

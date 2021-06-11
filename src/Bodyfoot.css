@@ -1,0 +1,23 @@
+.bodyfoot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ADD8E6;
+}
+
+.logo {
+    height: 250px;
+    width: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
