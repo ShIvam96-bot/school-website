@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./Information.css";
 import  img1 from "./images/topper1.png";
 import img2 from "./images/topper2.gif";
 import { Carousel, Card } from 'react-bootstrap';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
+
 
 function Information() {
+
+    const [value, onChange] = useState(new Date());
 
     return (
         <div className="info__container">
@@ -34,7 +39,13 @@ function Information() {
                 </Card>
             </div>
             <div className="calender">
-                <h1>Our calender</h1>
+                <h1>School Calendar</h1>
+                <div className="calender">
+                    <Calendar
+                        onChange={onChange}
+                        value={value}
+                     />
+    </div>
             </div>
         </div>
     )

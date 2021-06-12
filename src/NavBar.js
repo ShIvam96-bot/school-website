@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function NavBar() {
     return (
-        <div id="home" className="navbar">
+        <div id="nav" className="navbar">
             <Navbar bg="light" expand="md">
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

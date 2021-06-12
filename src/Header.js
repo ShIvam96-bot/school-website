@@ -4,7 +4,7 @@ import img1 from "./images/school.png";
 
 function Header() {
     return (
-        <div className="header">
+        <div id="home" className="header">
             <img className="header__logo" src={img1} alt="img1" />
             <div className="header__container">
                 <h1 className="header__heading">Rose Mary Hr. Sec. School</h1>

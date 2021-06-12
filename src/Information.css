@@ -29,3 +29,30 @@
     height: 350px;
     width: 280px;
 }
+
+.calender {
+    width: 400px;
+    height: 550px;
+}
+
+@media screen and (max-width:550px) {
+    .info__container {
+        display: flex;
+        flex-direction: column;
+        background-color:#4682B4;
+    }
+    .calender {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .otherInfo {
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+    .topper {
+        width: 260px;
+        height: 500px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+}

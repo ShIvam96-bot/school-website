@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import "./Body.css";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -8,8 +8,9 @@ import img3 from "./images/slide3.jpg";
 import img4 from "./images/slide4.jpg";
 
 function Body() {
+
     return (
-        <div id="body" className="body__container">
+        <div id="body" className="body">
             <Carousel>
                 <Carousel.Item>
                     <img

@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     flex: 1;
-    background-color: #800000;
+    background-color: #FF3152;
 }
 
 .footer__logo {
@@ -52,4 +52,21 @@
 .icon {
     width: 20px;
     height: 20px;
+}
+
+@media screen and (max-width:550px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        background-color: #FF3152;
+    }
+    .links {
+        margin-left: 40px;
+    }
+    .social__con {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
 }
