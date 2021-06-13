@@ -39,13 +39,13 @@ function Information() {
                 </Card>
             </div>
             <div className="calender">
-                <h1>School Calendar</h1>
+                <h1 className="sc-cal">School Calendar</h1>
                 <div className="calender">
                     <Calendar
                         onChange={onChange}
                         value={value}
                      />
-    </div>
+                </div>
             </div>
         </div>
     )

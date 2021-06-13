@@ -8,8 +8,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    background-color: #191970;
+    padding: 0px;
+    background-color: #132f57;
     color: white;
 }
 
@@ -27,4 +27,12 @@
 
 .header__para {
     font-size: 20px;
+}
+
+@media screen and (max-width:550px) {
+    .header__heading {
+        font-size: 30px;
+        font-style:inherit;
+        font-weight: 250;
+    }
 }

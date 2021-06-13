@@ -1,8 +1,9 @@
 .border {
     padding: 20px;
-    background-color: #005bff;
+    background-color: #132f57;
     color: white;
     display: flex;
+    border: none;
 }
 
 .para1 {

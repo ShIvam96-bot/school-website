@@ -1,4 +1,99 @@
 .button {
     background-color: red;
     color:white;
+    height: 30px;
+    width: 60px;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: .25rem;
+    margin-left: 50px;
+    align-self: inherit;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: inherit;
+    z-index: 900!important;
+    top: 0px;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    padding-top: 0px;
+    border-bottom: 0px solid rgba(255,255,255,0.18);
+}
+
+.navbar__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__contact {
+    margin-left: 50px;
+    color: #000000;
+}
+
+.nav__gallery {
+    margin-left: 50px;
+    color: #000000;
+}
+
+.nav__acad {
+    margin-left: 50px;
+    color: #000000;
+}
+
+.nav__about {
+    margin-left: 50px;
+    color: #000000;
+}
+
+.nav__home {
+    margin-left: 200px;
+    color: #000000;
+}
+
+@media screen and (max-width:550px) {
+    .button {
+        background-color: red;
+        color:white;
+        height: 30px;
+        width: 60px;
+        border: 1px solid transparent;
+        font-size: 1rem;
+        border-radius: .25rem;
+        margin-left: 50px;
+        align-self: inherit;
+    }
+    
+    .navbar {
+    }
+    
+    .navbar__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav__contact {
+        color: #000000;
+    }
+    
+    .nav__gallery {
+        color: #000000;
+    }
+    
+    .nav__acad {
+        color: #000000;
+    }
+    
+    .nav__about {
+        color: #000000;
+    }
+    
+    .nav__home {
+        color: #000000;
+    }
 }

@@ -18,9 +18,6 @@ function Body() {
                         src={img1}
                         alt="img1"
                     />
-                <Carousel.Caption>
-                <h3>First slide </h3>
-                </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                      <img
@@ -28,10 +25,6 @@ function Body() {
                         src={img2}
                         alt="Second slide"
                     />
-
-                <Carousel.Caption>
-                    <h3>Second slide </h3>
-                </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -39,10 +32,6 @@ function Body() {
                         src={img3}
                         alt="Third slide"
                     />
-
-                <Carousel.Caption>
-                    <h3>Third slide</h3>
-                </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -50,10 +39,6 @@ function Body() {
                         src={img4}
                         alt="fourth slide"
                     />
-
-                <Carousel.Caption>
-                    <h3>Fourth slide </h3>
-                </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
         </div>
